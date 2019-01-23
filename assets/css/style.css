@@ -1,12 +1,177 @@
 /* This is the professional portfolio css file.
 
-     Written by Alex Chalyy on 1/20/2019. */
+	 Written by Alex Chalyy on 1/20/2019. */
+	 
+header
+{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	border-color: #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	z-index: 2;
+	
+	
+}
 
-#name	
-#about
-#portfolio
-#contact
-#about
+body {
+	background-image: url("../images/white_carbon.png");
+	z-index: 1;
+	
+}
+
+.brand	{
+	width: 960px;
+	margin: 0 auto;
+	background: #ffffff;
+	margin-top: 10px;
+	color: #777777;
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border: #dddddd;
+	height: 400px;
+	
+}
+
+#name
 {
 	float: left;
+	background: #4aaaa5;
+	color: white;
+	padding: 20px;
+	z-index: 2;
+	position: static;
+	margin-top: 2.5%;
+	
+}
+
+#contact
+
+{	
+	float: right;
+	padding: 20px;
+	padding-top: 4%;
+	background: #ffffff;
+	z-index: 2;
+	position: static;
+	margin-top: 1%;
+	
+}
+
+#portfolio
+
+{	
+	float: right;
+	padding: 20px;
+	padding-top: 4%;
+	background: #ffffff;
+	z-index: 2;
+	position: static;
+	margin-top: 1%;
+	
+}
+
+#about	{
+	float: right;
+	padding: 20px;
+	padding-top: 4%;
+	background: #ffffff;
+	z-index: 2;
+	position: static;
+	margin-top: 1%;
+	
+}
+
+#me
+{
+	text-align: left;
+	background: #ffffff;
+	padding-left: 20px;
+	padding-top: -10%;
+	color: #4aaaa5;
+	font-size: 200%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	position: relative;
+	padding-top: -20%;
+	
+}
+
+#copyright	{
+	text-align: center;
+	
+}
+
+.headers
+{
+	background: #ffffff;
+	
+}
+
+#header_background	{
+	position: relative;
+	background: #ffffff;
+	height: 100px;
+	z-index: -1;
+	margin-bottom: -10%;
+	padding-bottom: -10%;
+	border-color: #cccccc;
+	width: 250%;
+	margin-left: -100%;
+	margin-right: -100%;
+	margin-top: -1%;
+}
+
+#gap	{
+	background-image: url("../images/white_carbon.png");
+	position: relative;
+	height: 20px;
+	margin-top: -21px;
+}
+
+#dividor	{
+	padding-left: 20px;
+	margin-top: -60px;
+}
+
+#image	{
+	padding-left: 20px;
+	float: left;
+}
+
+#occupation	{
+	float: left;
+	padding-left: 20px;
+	margin-top: -16px;
+}
+
+#experience	{
+	float: left;
+	padding-left: 20px;
+}
+
+#brand_statement	{
+	float: left;
+	margin-top: -40px;
+	padding-left: 180px;
+}
+
+.footer	{
+	margin-top: 200px;
+	background: #666666;
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	margin-top: 440px;
+	height: 65px;
+}
+
+#teal_line	{
+	background: #4aaaa5;
+	width: 1904px;
+	height: 10px;
+	margin-top: -28px;
+	text-align: center;
+}
+
+#copyright	{
+	margin-top: 20px;
 }
