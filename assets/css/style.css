@@ -10,7 +10,7 @@ header
 	border-color: #cccccc;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	z-index: 2;
-	
+	margin-top: -100px;
 	
 }
 
@@ -29,7 +29,6 @@ body {
 	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	border: #dddddd;
 	height: 400px;
-	
 }
 
 #name
@@ -41,7 +40,6 @@ body {
 	z-index: 2;
 	position: static;
 	margin-top: 2.5%;
-	
 }
 
 #contact
@@ -78,7 +76,6 @@ body {
 	z-index: 2;
 	position: static;
 	margin-top: 1%;
-	
 }
 
 #me
@@ -104,22 +101,30 @@ body {
 .headers
 {
 	background: #ffffff;
-	
 }
 
 #header_background	{
 	position: relative;
+	height: 100px;
+	background: #ffffff;
+	z-index: -1;
+	width: window auto;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	/*
+	position: relative;
 	background: #ffffff;
 	height: 100px;
-	z-index: -1;
+	z-index: -1; */ /*
 	margin-bottom: -10%;
 	padding-bottom: -10%;
 	border-color: #cccccc;
-	width: 250%;
 	margin-left: -100%;
 	margin-right: -100%;
-	margin-top: -1%;
-}
+	margin-top: -1%; */ /*
+	width: window auto; */
+} 
 
 #gap	{
 	background-image: url("../images/white_carbon.png");
@@ -160,13 +165,18 @@ body {
 	background: #666666;
 	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: white;
-	margin-top: 440px;
+	margin-top: 450px;
 	height: 65px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	margin-left: -10px;
+	margin-right: 10px;
 }
 
 #teal_line	{
 	background: #4aaaa5;
-	width: 1904px;
+	width: window auto;
 	height: 10px;
 	margin-top: -28px;
 	text-align: center;
@@ -174,4 +184,101 @@ body {
 
 #copyright	{
 	margin-top: 20px;
+}
+
+.contact_box	{
+	width: 960px;
+	margin: 0 auto;
+	background: #ffffff;
+	margin-top: 10px;
+	color: #777777;
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border: #dddddd;
+	height: 700px;
+	margin-bottom: -100px;
+}
+
+.contact_footer	{
+	background: #666666;
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	margin-top: 250px;
+	height: 65px;
+}
+
+#visitor	{
+	margin-left: 20px;
+	margin-top: 10px;
+	float: left;
+	padding-right: 10px;
+}
+
+#email	{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#message	{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#visitor_name_box	{
+	clear: all;
+	padding-top: 30px;
+	margin-left: 20px;
+	width: 100px;
+	opacity: 20;
+}
+
+#email_box	{
+	clear: all;
+	padding-top: 3px;
+	margin-left: 20px;
+	opacity: 20;
+}
+
+#text_box	{
+	color: #777777;
+	opacity: 20;
+}
+
+#emailbox	{
+	color: #777777;
+	opacity: 20;
+}
+
+#message_box	{
+	margin-left: 20px;
+	height: 150px;
+	margin-bottom: -10px;
+}
+
+#submit	{
+	position: relative;
+	margin-left: 485px;
+	margin-top: -20px;
+}
+
+#submit_button	{
+	background: #4aaaa5;
+	color: white;
+	position: relative;
+	margin-left: 330px;
+	margin-top: -1000px;
+	width: 80px;
+	height: 30px;
+}
+
+#button_container	{
+	position: relative;
+	margin-top: -30px;
+}
+
+#space	{
+	width: 2000px;
+	height: 30px;
+	margin-top: 20px;
+	background-image: url("../images/white_carbon.png");
+	color: url("../images/white_carbon.png");
 }
