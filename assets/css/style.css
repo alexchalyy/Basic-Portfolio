@@ -29,6 +29,8 @@ body {
 	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	border: #dddddd;
 	height: 400px;
+	padding-bottom: 1%;
+	border-color: #dddddd;
 }
 
 #name
@@ -90,7 +92,6 @@ body {
 	font-weight: bold;
 	position: relative;
 	padding-top: -20%;
-	
 }
 
 #copyright	{
@@ -112,18 +113,6 @@ body {
 	margin-top: -10px;
 	margin-left: -10px;
 	margin-right: -10px;
-	/*
-	position: relative;
-	background: #ffffff;
-	height: 100px;
-	z-index: -1; */ /*
-	margin-bottom: -10%;
-	padding-bottom: -10%;
-	border-color: #cccccc;
-	margin-left: -100%;
-	margin-right: -100%;
-	margin-top: -1%; */ /*
-	width: window auto; */
 } 
 
 #gap	{
@@ -167,7 +156,7 @@ body {
 	color: white;
 	margin-top: 450px;
 	height: 65px;
-	position:absolute;
+	position:fixed;
 	bottom:0;
 	width:100%;
 	margin-left: -10px;
@@ -194,8 +183,9 @@ body {
 	color: #777777;
 	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	border: #dddddd;
-	height: 700px;
+	height: 640px;
 	margin-bottom: -100px;
+	border-color: #dddddd;
 }
 
 .contact_footer	{
@@ -250,14 +240,14 @@ body {
 
 #message_box	{
 	margin-left: 20px;
-	height: 150px;
+	height: 120px;
 	margin-bottom: -10px;
 }
 
 #submit	{
 	position: relative;
 	margin-left: 485px;
-	margin-top: -20px;
+	margin-top: 200px;
 }
 
 #submit_button	{
@@ -268,11 +258,13 @@ body {
 	margin-top: -1000px;
 	width: 80px;
 	height: 30px;
+	padding-left: -50px;
 }
 
 #button_container	{
 	position: relative;
-	margin-top: -30px;
+	margin-top: 20px;
+	margin-left: -32.5%;
 }
 
 #space	{
@@ -281,4 +273,144 @@ body {
 	margin-top: 20px;
 	background-image: url("../images/white_carbon.png");
 	color: url("../images/white_carbon.png");
+}
+
+#space_1	{
+	width: 1000px;
+	height: 30px;
+	margin-top: 450px;
+	background-image: url("../images/white_carbon.png");
+	color: url("../images/white_carbon.png");
+}
+
+#image1	{
+	z-index: 100;
+	margin-left: 2%;
+	display: inline-block;
+	position: relative;
+}
+
+#image2	{
+	z-index: 100; 
+	margin-left: 7%;
+	display: inline-block;
+	position: relative;
+}
+
+#image3	{
+	z-index: 100; 
+	margin-left: 7%;
+	display: inline-block;
+	position: relative;
+}
+
+#image4	{
+	z-index: 100; 
+	margin-left: 7%;
+	display: inline-block;
+	position: relative;
+}
+
+#image5	{
+	z-index: 100; 
+	margin-left: 7%;
+	display: inline-block;
+	position: relative;
+}
+
+.contact_box_2	{
+	width: 960px;
+	margin: 0 auto;
+	background: #ffffff;
+	margin-top: 10px;
+	color: #777777;
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border: #dddddd;
+	margin-bottom: -100px;
+	padding-bottom: 2%;
+	border-color: #dddddd;
+}
+
+#line	{
+	padding-left: -10px;
+	margin-left: 19px;
+	margin-right: 29px;
+	margin-top: -1%;
+	margin-bottom: 3%;
+}
+
+#button1	{
+	position: relative;
+	margin-top: -4%;
+	margin-left: 5%;
+	margin-bottom: 1%;
+	padding-right: -10%;
+}
+
+#hangman	{
+	background: #4aaaa5;
+	color: white;
+	position: absolute;
+	margin-top: -43%;
+	margin-left: 0%;
+	padding: 10%;
+	padding-left: 24%;
+	padding-right: 26%;
+}
+
+#rpg {
+	background: #4aaaa5;
+	color: white;
+	position: absolute;
+	margin-top: -43%;
+	margin-bottom: 5%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	text-align: center;
+	width: 100%;
+	height: 14%;
+}
+
+#trivia	{
+	background: #4aaaa5;
+	color: white;
+	position: absolute;
+	margin-top: -43%;
+	margin-bottom: 8%;
+	width: 100%;
+	text-align: center;
+	padding-top: 11%;
+	padding-bottom: 11%;
+}
+
+#rutgers	{
+	background: #4aaaa5;
+	color: white;
+	position: absolute;
+	margin-top: -43%;
+	margin-bottom: 8%;
+	padding-top: 11%;
+	padding-bottom: 11%;
+	text-align: center;
+	padding-left: 7%;
+	padding-right: 7%;
+	width: 86%;
+	font-size: 80%;
+	height: 15%;
+}
+
+#rock	{
+	background: #4aaaa5;
+	color: white;
+	position: absolute;
+	margin-top: -43%;
+	margin-bottom: 8%;
+	padding-top: 11%;
+	padding-bottom: 11%;
+	text-align: center;
+	padding-left: 7%;
+	padding-right: 7%;
+	width: 86%;
+	font-size: 80%;
+	height: 15%;
 }
